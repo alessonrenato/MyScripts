@@ -4,7 +4,7 @@
 #(C) 2016, Arthur Felipe, <arthur.f.o.bezerra@gmail.com>
 
 #Usage:
-#type $update 'repository you want to update' 'repository to merge with'
+#type $update 'branch you want to update' 'branch to merge with'
 
 
 #test arguments
