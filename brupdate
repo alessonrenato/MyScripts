@@ -1,0 +1,30 @@
+#!/bin/bash
+
+#GITUPDATE Script
+#(C) 2016, Arthur Felipe, <arthur.f.o.bezerra@gmail.com>
+
+#Usage:
+#type $update 'repository you want to update' 'repository to merge with'
+
+
+#test arguments
+if [ $# -lt 1 ];
+then
+echo "not enough arguments! type brupdate 'branch' or brupdate 'branch' 'branch you want to merge'"
+echo "brupdate failed!"
+exit 1
+
+#1 argument updates branch
+elif [ $# -lt 2 ];
+then
+git fetch origin $1 && git pull origin $1
+
+#2 arguments updates branch and merges with another branch
+elif [ $# -lt 3 ];
+then
+git fetch origin $1 && git pull origin $1 && git co $2 && git merge $1
+else
+echo "too many arguments!"
+echo "brupdate failed!"
+fi
+
