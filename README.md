@@ -6,7 +6,7 @@ FOR MORE INFORMATION CONTACT <arthur.f.o.bezerra@gmail.com>
 
 - Repository intented for the development and stashing of scripts to help doing repetitive tasks in linux and github
 
-- Later on it might be used for educational purposes on the creation and use of scripts
+- Later on it might be used for educational purposes on the creation and use of scripts for students and enthusiasts
 
 - I'm a humble student with very little time in programmings, so my work may not be optimal,
 but I will be doing my best to fix bugs and add any interesting features that may be reported to me
